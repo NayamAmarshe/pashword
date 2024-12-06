@@ -6,5 +6,9 @@ module.exports = withPWA({
     dest: "public",
     register: true,
   },
-  output: "standalone",
+  output: "export",
+  images: {
+    unoptimized: true, // Important for static export
+  },
+  trailingSlash: true,
 });
