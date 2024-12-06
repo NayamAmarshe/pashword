@@ -16,6 +16,7 @@ Passwords done right
 <img src="/public/og-image.png">
 
 # 🔒 https://pashword.app 🔒
+# 🔒 [Browser Extension](https://github.com/pashword/extension/) 🔒
 
 </div>
 
@@ -79,12 +80,18 @@ npm run dev
 ```
 
 # Self-hosting 🤳
+## Docker
+Compose file is included in the project :)
+or you can pull from Docker Hub
+```
+docker pull nayamamarshe/pashword
+```
 
+## Vercel
 1. Fork this repository.
 2. Sign up on https://vercel.com
 3. Import your forked Pashword repository and enjoy!
 
-Docker support coming soon. Till then, please follow the development instructions to run a local instance.
 
 # FAQ
 Please [Read the FAQ](https://pashword.app/#faq) for any security questions or doubts about Pashword.
