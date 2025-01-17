@@ -277,7 +277,7 @@ const FAQ = () => {
                 </span>
               </Disclosure.Button>
               <Disclosure.Panel className="faq-text">
-                You should use password if:
+                You should use Pashword if:
                 <br /> 1. You use the same password everywhere.
                 <br /> 2. You often forget passwords.
                 <br /> 3. You do not know how to use a password manager.
